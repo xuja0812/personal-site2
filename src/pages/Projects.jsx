@@ -2,6 +2,20 @@ import { useState, useEffect } from 'react';
 
 const projects = [
   {
+    title: "Class Scheduler",
+    description: "Full-stack web app that allows students to create schedules and have administrators leave comments on them in real-time.",
+    image: "/scheduler.png",
+    frameworks: ["React","Node.js","Express.js","OAuth 2.0","PostgreSQL"],
+    githubLink: "https://github.com/xuja0812/scheduling-app"
+  },
+  {
+    title: "Review Scraper",
+    description: "Full-stack web app that scrapes reviews from a specified company using Selenium, extracts the sentiment using a BERT model, and posts it to a Flask and MySQL backend.",
+    image: "/scraper2.png",
+    frameworks: ["React","Python", "Selenium", "Flask", "Pandas",  "PyTorch", "MySQL"],
+    githubLink: "https://github.com/xuja0812/scraper-flask-app"
+  },
+  {
     title: "Sudoku Solver",
     description: "SwiftUI app that uses camera input to scan Sudoku puzzles, sends the image to a FastAPI backend for digit recognition via TensorFlow and OpenCV, and solves the board with a backtracking algorithm.",
     image: "/sudoku2.png",
@@ -18,20 +32,13 @@ const projects = [
     description: "Virtual cybersecurity tutor that includes and NPC for user interaction, modals for each topic, and an AI-powered chatbot to personalize learning.",
     image: "/cyberlearn.png",
     frameworks: ["React","TypeScript","Next.js","Firebase","Tailwind"],
-    githubLink: "https://github.com/xuja0812/cyberlearn"
+    githubLink: "https://github.com/xuja0812/cyberlearn2"
   },
   {
     title: "Trading Bot",
     description: "Trading bot designed to maximize profit in a market-making environment. Generated $1M+ over the course of 6 hours during Jane Street's Electronic Trading Challenge.",
     frameworks: ["Python"]
   },
-  {
-    title: "Review Scraper",
-    description: "Full-stack web app that scrapes reviews from a specified company using Selenium, extracts the sentiment using a BERT model, and posts it to a Flask and MySQL backend.",
-    image: "/scraper.png",
-    frameworks: ["Python", "Selenium", "Flask", "Pandas", "Streamlit", "PyTorch", "MySQL"],
-    githubLink: "https://github.com/xuja0812/scraper-flask-app"
-  }
   
 ];
 
