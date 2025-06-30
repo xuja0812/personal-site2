@@ -36,7 +36,7 @@ export default function Home() {
             I'm especially interested in natural language processing (NLP).
           </p>
           <p className="text-xl text-zinc-300 text-center max-w-2xl mt-8">
-            Currently, I'm working as a Software Engineer Intern at <a href="https://mermory.com" target="_blank" className="hover:text-pink-400">mermory</a>.
+            Currently, I'm working as a Software Developer Intern at <a href="https://www.fermyon.com/#" target="_blank" className="hover:text-pink-400">Fermyon</a>.
             Over the summer, I'm also doing research on value extraction from conversations at CMU's Robotics Institute.
           </p>
           <p className="text-xl text-zinc-300 text-center max-w-2xl mt-8">
