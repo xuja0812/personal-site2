@@ -32,7 +32,7 @@ export default function Home() {
           />
           <h2 className="text-4xl md:text-5xl font-bold mb-4">Hi, I'm Jasmine 👋</h2>
           <p className="text-xl text-zinc-300 text-center max-w-2xl">
-            I'm a rising sophomore at Carnegie Mellon University studying computer science with a planned concentration in machine learning. 
+            I'm a student at Carnegie Mellon University studying computer science with a planned concentration in machine learning. 
             I'm especially interested in natural language processing (NLP).
           </p>
           <p className="text-xl text-zinc-300 text-center max-w-2xl mt-8">
