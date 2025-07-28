@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 
 const blogPosts = [
   {
-    title: "freshman year review",
+    title: "year review",
     date: "May 10 2025",
     summary: "24-25",
     content: `
